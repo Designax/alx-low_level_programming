@@ -15,3 +15,7 @@ function that changes all lowercase letters of a string to uppercase.
 function that capitalizes all words of a string.
 ### 7. Mozart composed his music not for the elite, but for everybody
 function that encodes a string into 1337.
+### 8. rot13
+function that encodes a string using rot13.
+### 9. Numbers have life; they're not just symbols on paper
+function that prints an integer.
