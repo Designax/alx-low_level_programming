@@ -1,13 +1,23 @@
 #include "main.h"
+#include<stdio.h>
+void _puts(char *str);
 /**
-* _puts - prints a string, followed by a new line, to stdout
-* @str: string to print
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
-void _puts(char *str)
-{
-for (;*str != '\0'; str++)
-{
-_putchar(*str);
+
+int main() {
+    char str [] = "I do not fear computers . I fear the lack of lack of them - Isaac Asimov";
+    _puts(str);
+    puts("\n");
+    return 0;
 }
-_putchar('\n');
+void _puts(char *str) {
+    int i = 0;
+    while (str[i] != '\n' && str[i] != '\0')
+    {
+        putchar(str[i]);
+        i ++;
+    }
 }
