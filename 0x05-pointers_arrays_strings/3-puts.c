@@ -1,23 +1,13 @@
 #include "main.h"
-#include<stdio.h>
-void _puts(char *str);
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
-int main(void){
-char *str;
-puts("%s", &str);
-puts("\n");
-return (0);
-}
+ * _puts - this is afuction that puts
+ * @str: a param to _puts function
+ */
 void _puts(char *str)
 {
-int i = 0;
-while (str[i] != '\n' && str[i] != '\0')
+for (; *str != '\0'; str++)
 {
-putchar(str[i]);
-i++;
+_putchar(*str);
 }
+_putchar('\n');
 }
