@@ -6,18 +6,18 @@ void _puts(char *str);
 *
 * Return: Always 0 (Success)
 */
-
-int main() {
-    char str [] = "I do not fear computers . I fear the lack of lack of them - Isaac Asimov";
-    _puts(str);
-    puts("\n");
-    return 0;
+int main(void){
+char *str;
+puts("%s", &str);
+puts("\n");
+return (0);
 }
-void _puts(char *str) {
-    int i = 0;
-    while (str[i] != '\n' && str[i] != '\0')
-    {
-        putchar(str[i]);
-        i ++;
-    }
+void _puts(char *str)
+{
+int i = 0;
+while (str[i] != '\n' && str[i] != '\0')
+{
+putchar(str[i]);
+i++;
+}
 }
