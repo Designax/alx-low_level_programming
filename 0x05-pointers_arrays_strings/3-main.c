@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -9,6 +10,6 @@ int main(void)
 	char *str;
 
 	str = "I do not fear computers. Ifear the lack of them - Isaac Asimov";
-	_put(str);
+	puts(str);
 	return (0);
 }
