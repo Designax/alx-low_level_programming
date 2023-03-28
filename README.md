@@ -16,4 +16,3 @@
 #### 0x0E. C - Structures, typedef
 #### 0x0F. C - Fuction pointers
 #### 0x010. C - Variadic fuction
-#### 0x011. C - Printf
